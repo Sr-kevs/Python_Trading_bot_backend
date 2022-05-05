@@ -406,4 +406,4 @@ def on_message(ws, message):
 
 #line to execute (automate) once we have bought our coins to close a position later depending on hoe parameters are set
 ws = websocket.WebSocketApp(SOCKET, on_open=on_open, on_close=on_close, on_message=on_message)
-ws.run_forever()                      
+ws.run_forever()   
