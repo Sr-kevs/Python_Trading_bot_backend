@@ -1,2 +1,2 @@
 API_KEY = "yourbinanceapikey"
-API_SECRET = "yourbinanceapiscreteapi"
+API_SECRET = "yourbinanceapisecreteapi"
