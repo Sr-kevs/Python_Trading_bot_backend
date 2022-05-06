@@ -26,7 +26,7 @@ First thing to do is to know which trading strategy you want to use. In this cas
 
 Grid trading is an automated currency trading strategy  where an investor creates a so-called “price grid”. The basic idea of the strategy is to repeatedly buy at the pre-specified price and then wait for the price to rise above that level and then sell the position (and vice versa with shorting and covering).
 
-![[Pasted image 20220503141708.png]]
+
 
 ## Second Step
 
@@ -88,7 +88,7 @@ So, we go ahead and set up our specifications on code.
 
 1. Make that it opens position on both sides at the same time with $500.00 at the same time.  So, at our registry (Spreadsheet file called signals.xlsx) we set In out cell called **USD to buy** to the  amount to buy for the both sides  each ( meaning whatever price we set is to buy $500.00 *"long"* and $500.00 *"short"* )
 
-![[Pasted image 20220504140701.png]]
+
 
 
 
