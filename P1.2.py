@@ -323,7 +323,7 @@ def on_open(ws):
 def on_close(ws):
     print("closed connection")
     time.sleep(60)
-    subprocess.run ([sys.executable,'C:/Users/kevin/Documents/Inversion/Bit trading/FuturesBot3/P1.2.py'] ) 
+    subprocess.run ([sys.executable,'/P1.2.py'] ) 
     sys.exit()       
 
 def on_message(ws, message):
@@ -373,7 +373,7 @@ def on_message(ws, message):
         print("Are excel files the same? {}".format(check_wb)) 
         #if not the same execute another script, this to automate in case of any changes on the transaction manually or from other scripts running       
         if not check_wb ==True:
-            subprocess.run ([sys.executable,'C:/Users/kevin/Documents/Inversion/Bit trading/FuturesBot3/P1.2.py'] ) 
+            subprocess.run ([sys.executable,'/P1.2.py'] ) 
             sys.exit()
 
 
@@ -395,8 +395,8 @@ def on_message(ws, message):
                     )
                 print(order)
                 #script for reproducing a sound when action is triggered 
-                #playsound('C:/Users/kevin/Documents/Inversion/Bit trading/FuturesBot3/cashingmachine.mp3')  
-                #subprocess.run ( [sys.executable, 'C:/Users/kevin/Documents/Inversion/Bit trading/FuturesBot3/P2.2.py' ] ) 
+                #playsound('/cashingmachine.mp3')  
+                #subprocess.run ( [sys.executable, '/P2.2.py' ] ) 
                 sys.exit()
                 
 
